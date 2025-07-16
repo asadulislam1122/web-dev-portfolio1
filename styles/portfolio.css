@@ -176,10 +176,10 @@ footer{
    margin-bottom: 24px;
    border: none; 
  }
- /* responsiv */
- .hide{
-    display: none;
- }
+ /* responsiv portfolio website*/
+ 
+
+
  @media screen and (max-width: 576px) {
     .skills-container,
      .resume-container,
