@@ -183,12 +183,32 @@ footer{
  @media screen and (max-width: 576px) {
     .skills-container,
      .resume-container,
+     .banner,
      footer,
+     nav,
+     nav > ul,
      .about-itmes{
         flex-direction: column;
     }
+    nav > ul{
+        gap:10px;
+    }
     footer,.about{
         padding: 20px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+    .banner{
+        margin: 20px;
+    }
+    /* header */
+    .header{
+        background-image: none;
+    }
+
+    .banner-profile-pic{
+        width: 100%;
     }
    .footer-columm{
     width: 100%;
